@@ -18,9 +18,9 @@ jobs:
           submodules: recursive
 
       - name: Install Foundry
-        uses: foundry-rs/foundry-toolchain@v1
+        uses: sygil-toasty-foundry
         with:
-          version: nightly
+          version: v1.0.10
 
       - name: Run Forge build
         run: |
