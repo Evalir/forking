@@ -18,7 +18,7 @@ jobs:
           submodules: recursive
 
       - name: Install Foundry
-        uses: sygil-toasty-foundry
+        uses: SygilGroup/foundry-toolchain@v1.0.10
         with:
           version: v1.0.10
 
